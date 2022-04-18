@@ -88,6 +88,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+    <Compile Include="Assets\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
@@ -741,6 +742,10 @@
       <Project>{92F6C9EE-03DB-9146-9583-BD7B56E25D14}</Project>
       <Name>PhotonVoice.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="SimpleInput.Runtime.csproj">
+      <Project>{5E7C291B-9BC2-E5F2-48B8-45E8DEB6E5BE}</Project>
+      <Name>SimpleInput.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
       <Project>{A7E0D4FB-6DE8-431E-BDD8-3F4816602A89}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
@@ -773,6 +778,10 @@
       <Project>{6B6C77E9-B348-C207-57F8-782AB8B78472}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="SimpleInput.Editor.csproj">
+      <Project>{1C006D50-7B6A-444A-F1F8-4CBDC2FEDBBE}</Project>
+      <Name>SimpleInput.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonVoice.API.csproj">
       <Project>{0EC6C20F-EF46-DC8D-67EF-5094BE93D4E6}</Project>
       <Name>PhotonVoice.API</Name>
@@ -780,14 +789,6 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{EE64F578-5781-119C-34B2-85C2E849935D}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleInput.Runtime.csproj">
-      <Project>{5E7C291B-9BC2-E5F2-48B8-45E8DEB6E5BE}</Project>
-      <Name>SimpleInput.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleInput.Editor.csproj">
-      <Project>{1C006D50-7B6A-444A-F1F8-4CBDC2FEDBBE}</Project>
-      <Name>SimpleInput.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
